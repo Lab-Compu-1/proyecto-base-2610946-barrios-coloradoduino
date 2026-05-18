@@ -2925,12 +2925,6 @@
 		(uuid "5eecd739-9a3a-4078-85cf-4e9eebb1bfe5")
 	)
 	(junction
-		(at 147.32 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a606e16-6d00-487e-87e4-4e53fce68a88")
-	)
-	(junction
 		(at 76.2 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3394,16 +3388,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 72.39) (xy 147.32 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92bc7aa7-a750-4fd5-bd2d-5b37daf76a90")
-	)
-	(wire
-		(pts
 			(xy 173.99 100.33) (xy 173.99 105.41)
 		)
 		(stroke
@@ -3414,16 +3398,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 67.31) (xy 147.32 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c1557a2-f0b7-49f0-90d1-bc2c863d7409")
-	)
-	(wire
-		(pts
 			(xy 82.55 121.92) (xy 82.55 125.73)
 		)
 		(stroke
@@ -3431,6 +3405,16 @@
 			(type default)
 		)
 		(uuid "a1822c76-aafd-494f-b15e-e270b2ed0b0b")
+	)
+	(wire
+		(pts
+			(xy 147.32 67.31) (xy 147.32 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58fb9f4-6593-421a-b5c7-b1c707078dfc")
 	)
 	(wire
 		(pts
@@ -3634,7 +3618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10997108-4d28-41d5-89fd-26fd3e77510d")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 259.08 75.2474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3697,7 +3681,7 @@
 		(instances
 			(project "2610946-Dante-Franco-Microduino"
 				(path "/f2c20679-f28d-47ad-9191-2bfbde129570"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4247,7 +4231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 109.22 102.362 90)
 			(hide yes)
 			(show_name no)
@@ -4814,7 +4798,7 @@
 			)
 		)
 		(property "Value" "330Ω  5% 1/8W"
-			(at 173.228 67.31 90)
+			(at 172.974 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4823,7 +4807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 172.72 71.628 90)
 			(hide yes)
 			(show_name no)
@@ -4902,7 +4886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 99.06 103.378 90)
 			(hide yes)
 			(show_name no)
@@ -5307,7 +5291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 90.17 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5728,7 +5712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 253.492 87.63 90)
 			(hide yes)
 			(show_name no)
